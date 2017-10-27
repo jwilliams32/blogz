@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <style>
+        .error{
+            color:red
+        }
+    </style>
+    <head>
+        <title>{{title}}</title>
+    </head>
+<body>
+
+        <div>
+            <a href='/blog'>All Blogs</a>
+        </div>
+        <div>
+            <a href='/newpost'>Add Blog</a>
+        </div>    
+        <div>
+            <a href='/signup'>Sign Up</a>
+        </div>
+        <div>
+            <a href='/login'>Login</a>
+        </div>    
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
